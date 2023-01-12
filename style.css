@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+img{
+    width: 140px;
+    height:70px;
+    float: left;
+    padding: 6px;
+}
+
+header{
+    background: #1F2937;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    background-color: #1F2937;
+   
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 60px;
+    float :left;
+    padding: 25px 0;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color : rgb(110, 110, 228);
+    font-weight: bold;
+}
+
+nav ul li a :hover{
+    color:yellow;
+}
+
+.imageAnimals{
+    height: 350px;
+    width: 500px;
+    float:right;
+    padding: 40px 50px;
+}
+
+.informacion{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding : 40px 50px;
+    background-color: #1F2937;
+}
+
+.informacion h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.loguearse{
+    border-style: none;
+}
+
+.titulo{
+    color: black;
+    text-align: center;
+}
+
+div.galeria{
+    margin: 10px 50px;
+    float: left;
+    width: 200px;
+}
+
+div.galeria img{
+    width: 250px;
+    height: auto;
+    padding: 0px 10px;
+}
+
+div.galeriaF {
+    color: black;
+}
+
+.pie{
+    text-align: center;
+    position: relative;
+    left: 24px;
+}
+
+.mensaje{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(187, 185, 185);
+    padding: 70px 75px;
+    align-items: center;
+}
+
+.autor{
+    float: right;
+}
+
+.otro{
+    background-color: blue;
+}
+
+.galeriaF{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+}
+
+.cuadrito{
+    background-color: blue;
+    margin: 40px 20px;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.linki{
+    text-align: left;
+    padding: 50px 25px;
+    position: relative;
+    left: 20px;
+    color: white;
+}
+
+.info3{
+    background-color: white;
+    height: 200px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    height: 70px;
+    text-align: center;
+    padding: 30px;
+}
+
+input{
+    width: 15%;
+    padding: 5px;
+    color: black;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 14px;
+    background-color: rgb(105, 196, 135);
+}
+
+.especial{
+    float:right;
+    margin: 55px 100px;
+}
